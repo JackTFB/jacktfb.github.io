@@ -1,0 +1,139 @@
+body {
+    background-color: #64748b;
+}
+
+
+
+.\.indexcenter {
+    background-image: url("assets/Background.jpg");
+    background-position: center;
+    background-clip: inherit;
+    background-repeat: no-repeat;
+    background-color: #1e293b;
+    border: solid;
+    border-radius: 50px;
+    color: white;
+    display: flex;
+    padding: 20px 20px;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 500px;
+    margin: auto;
+    width: auto;
+    max-width: none;
+}
+
+li {
+    display: inline-block;
+    margin-right: 30px;
+    color: white;
+    font-size: 20px;
+    font-family: Verdana;
+}
+
+li:hover {
+    color: black;
+}
+
+
+.\.topMenu {
+    background-color: #1e293b;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px 20px;
+    color: white;
+    border: solid;
+    border-radius: 50px;
+    width: auto;
+    max-width: fit-content;
+}
+
+.\.bottomMenu {
+    background-color: #1e293b;
+    color: white;
+    margin: auto;
+    text-align: center;
+    padding: 20px 20px;
+    border: solid;
+    border-radius: 50px;
+    width: auto;
+    max-width: fit-content;
+}
+
+.\.about {
+    background-color: #1e293b;
+    color: white;
+    border: solid;
+    border-radius: 50px;
+    padding: 20px 20px;
+    font-family: Verdana;
+}
+
+.\.projects {
+    background-color: #1e293b;
+    color: white;
+    border: solid;
+    border-radius: 50px;
+    padding: 20px 20px;
+    font-family: Verdana;
+}
+
+.\.clients {
+    background-color: #1e293b;
+    color: white;
+    border: solid;
+    border-radius: 50px;
+    padding: 20px 20px;
+    font-family: Verdana;
+}
+
+.\.contact {
+    background-color: #1e293b;
+    color: white;
+    border: solid;
+    border-radius: 50px;
+    padding: 20px 20px;
+    font-family: Verdana;
+    text-align: center;
+}
+
+
+
+
+
+
+h1 {
+    background-color: dimgrey;
+    text-align: center;
+    border: solid;
+    border-radius: 20px;
+    padding: 20px 20px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+p {
+    font-size: 14px;
+    font-family: Verdana;
+}
+
+img {
+    border: none;
+    border-radius: 20px;
+}
+
+iframe {
+    border: solid;
+    border-radius: 20px;
+    align-items: center;
+}
+
