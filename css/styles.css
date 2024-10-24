@@ -50,6 +50,15 @@ nav ul li a:hover {
     color: #f5a623;
 }
 
+main ul {
+    list-style: none;
+    padding: 10px;
+}
+
+main ul li {
+    margin: 20px 0px;
+}
+
 /* Main Content */
 main {
     flex: 1;
