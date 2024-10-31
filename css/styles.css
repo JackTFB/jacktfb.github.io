@@ -105,6 +105,13 @@ main p {
     color: #00f6ff; /* Fun hover effect */
 }
 
+#blog {
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 20px;
+}
+
 /* Footer */
 footer {
     background-color: #0f3460;
