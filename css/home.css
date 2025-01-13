@@ -125,13 +125,12 @@ body {
 }
 
 .footer {
-    background-color: black;
-    color: white;
     text-align: center;
+    background-color: #233657;
+    color: #F4F6FB;
     padding: 10px;
     position: fixed;
-    left: 0;
-    right: 0;
     bottom: 0;
     width: 100%;
+    border-top: 2px solid #cad7ed;
 }
