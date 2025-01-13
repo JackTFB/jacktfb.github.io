@@ -24,6 +24,35 @@ body {
     box-shadow: 3px 3px 15px white;
 }
 
+.returnButton {
+    border: #F4F6FB 2px solid;
+    border-radius: 15px;
+    padding: 10px;
+    transition: transform 0.5s ease;
+}
+
+.returnButton:hover {
+    transform: scale(1.1);
+}
+
+.returnButton:active {
+    transform: scale(0.9);
+}
+
+.returnButton a {
+    text-decoration: none;
+    color: #F4F6FB;
+    transition: color 0.3s ease;
+}
+
+.returnButton a:hover {
+    color: #FDE9C3;
+}
+
+.returnButton a:active {
+    color: #FDE9C3;
+}
+
 footer {
     text-align: center;
     background-color: #233657;
