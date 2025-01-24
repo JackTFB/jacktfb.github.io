@@ -1,0 +1,91 @@
+body {
+    background-image: url("../assets/images/ForestBackground.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #F4F6FB;
+    font-family: "Corbel Light", sans-serif;
+}
+
+.content {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    justify-content: center;
+    border: 2px solid #cad7ed;
+    margin: auto;
+    margin-top: 10px;
+    width: 70%;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom, #233657, #2e538e);
+    box-shadow: 3px 3px 15px white;
+}
+
+.content ul li {
+    transition: transform 0.3s ease;
+}
+
+.content ul li:hover {
+    transform: scale(1.1);
+}
+
+.content ul li:active {
+    transform: scale(0.9);
+}
+
+.content ul li a {
+    text-decoration: none;
+    color: #F4F6FB;
+    transition: color 0.3s ease;
+}
+
+.content ul li a:hover {
+    color: #FDE9C3;
+}
+
+.content ul li a:active {
+    color: #FDE9C3;
+}
+
+.returnButton {
+    border: #F4F6FB 2px solid;
+    border-radius: 15px;
+    padding: 10px;
+    transition: transform 0.5s ease;
+}
+
+.returnButton:hover {
+    transform: scale(1.1);
+}
+
+.returnButton:active {
+    transform: scale(0.9);
+}
+
+.returnButton a {
+    text-decoration: none;
+    color: #F4F6FB;
+    transition: color 0.3s ease;
+}
+
+.returnButton a:hover {
+    color: #FDE9C3;
+}
+
+.returnButton a:active {
+    color: #FDE9C3;
+}
+
+footer {
+    text-align: center;
+    background-color: #233657;
+    color: #F4F6FB;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 2px solid #cad7ed;
+}
