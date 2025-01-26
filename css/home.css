@@ -1,3 +1,8 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
 body {
     background-image: url("../assets/images/ForestBackground.jpg");
     background-attachment: fixed;
@@ -6,6 +11,8 @@ body {
     background-repeat: no-repeat;
     color: #F4F6FB;
     font-family: "Corbel Light", sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 .main {
@@ -19,7 +26,7 @@ body {
     gap: 10px;
     width: 70%;
     margin: auto;
-
+    flex: 1;
 }
 
 .top {
@@ -128,9 +135,8 @@ body {
     text-align: center;
     background-color: #233657;
     color: #F4F6FB;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
+    padding: 20px;
     width: 100%;
     border-top: 2px solid #cad7ed;
+    margin-top: 20px;
 }
