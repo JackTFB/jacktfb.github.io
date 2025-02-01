@@ -285,15 +285,15 @@ body {
 
 
 
-.extra a img {
+.extra ul li a img {
     width: 5vh;
     transition: transform 0.3s ease;
 }
-.extra a img:hover {
+.extra ul li a img:hover {
     transform: scale(1.1);
 }
 
-.extra a img:active {
+.extra ul li a img:active {
     transform: scale(0.9);
 }
 
