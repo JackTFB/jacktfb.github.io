@@ -207,6 +207,8 @@ body {
 }
 
 .sidebar {
+    display: flex;
+    flex-direction: column;
     grid-area: sidebar;
     border: 0.2vh solid #cad7ed;
     width: 15vw;
@@ -228,9 +230,45 @@ body {
     padding: 1vh 0.5vw;
 }
 
+.sidebar ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: auto;
+}
+
+.sidebar ul li {
+    font-size: 1.5vh;
+}
+
+.sidebar ul li a img {
+    width: 10vh;
+    transition: transform 0.3s ease;
+}
+
+.sidebar ul li a img:hover {
+    transform: scale(1.1);
+}
+
+.sidebar ul li a img:active {
+    transform: scale(0.9);
+}
+
 .sidebar p {
     padding: 1vh 0.5vw;
     font-size: 1.5vh;
+}
+
+.websitebutton {
+    margin: auto;
+    transition: transform 0.5s ease;
+    width: 50%;
+}
+
+.websitebutton img {
+    width: 10vh;
 }
 
 .extra {
@@ -259,7 +297,7 @@ body {
 
 .extra ul {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     list-style: none;
     padding: 0;
     margin: auto;
