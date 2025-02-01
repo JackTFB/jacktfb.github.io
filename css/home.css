@@ -257,7 +257,22 @@ body {
     padding: 1vh 0.5vw;
 }
 
+.extra ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+    margin: auto;
+}
+
+.extra ul li {
+    margin: 0 1vw;
+    font-size: 1.5vh;
+    transition: transform 0.3s ease;
+}
+
 .extra p {
+    text-align: center;
     padding: 1vh 0.5vw;
     font-size: 1.5vh;
 }
@@ -266,18 +281,27 @@ body {
     text-decoration: none;
     font-size: 1.5vh;
     color: #F4F6FB;
-    transition: color 0.3s ease;
 }
 
-.extra a:hover {
-    color: #FDE9C3;
+
+
+.extra a img {
+    width: 5vh;
+    transition: transform 0.3s ease;
+}
+.extra a img:hover {
+    transform: scale(1.1);
 }
 
-.extra a:active {
-    color: #FDE9C3;
+.extra a img:active {
+    transform: scale(0.9);
 }
+
 
 .footer {
+    transform: translateY(4vh);
+    position: fixed;
+    bottom: 0;
     font-size: 1.5vh;
     text-align: center;
     background-color: #152227;
@@ -286,4 +310,9 @@ body {
     width: 100%;
     border-top: 0.2vh solid #cad7ed;
     margin-top: 2vh;
+    transition: transform 0.3s ease;
+}
+
+.footer:hover {
+    transform: translateY(0);
 }
