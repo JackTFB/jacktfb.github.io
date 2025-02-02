@@ -211,7 +211,7 @@ body {
     flex-direction: column;
     grid-area: sidebar;
     border: 0.2vh solid #cad7ed;
-    width: 15vw;
+    width: 20vw;
     height: 40vh;
     margin: auto;
     border-radius: 1vh;
@@ -224,7 +224,7 @@ body {
 }
 
 .sidebar:hover {
-    width: 16vw;
+    width: 21vw;
     height: 41vh;
     border: 0.4vh solid #cad7ed;
     padding: 1vh 0.5vw;
