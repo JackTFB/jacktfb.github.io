@@ -4,6 +4,18 @@
 <head>
     <title>Home</title>
     <link rel="stylesheet" href="../css/home.css">
+
+    <script>
+        function hover(element) {
+            element.setAttribute('src', '../assets/gifs/monikahappy.gif');
+            element.style.width = '8vh';
+        }
+
+        function unhover(element) {
+            element.setAttribute('src', '../assets/gifs/monika.gif');
+            element.style.width = '10vh';
+        }
+    </script>
 </head>
 
 <body>
@@ -97,7 +109,7 @@
     <div class="content">
         <p>Welcome, the site is an absolute mess right now.  I'll get it sorted, don't worry :)</p>
         <p>This is my main place to keep all my history and interests organized.  Hopefully it seems cool and fun!</p>
-        <img src="../assets/gifs/monika.gif">
+        <img src="../assets/gifs/monika.gif" onmouseover="hover(this)" onmouseout="unhover(this)">
     </div>
 
     <div class='extra'>
