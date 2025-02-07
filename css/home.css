@@ -17,6 +17,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-blend-mode: lighten;
+    background-color: #152227;
     color: #F4F6FB;
     font-family: "Corbel Light", sans-serif;
     display: flex;

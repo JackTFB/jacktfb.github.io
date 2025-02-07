@@ -1,59 +1,140 @@
+@keyframes bounceInAnimation {
+
+    from {
+        transform: translateY(
+                200vh
+        );
+    }
+
+    49% {
+        transform: translateY(
+                -1.9vh
+        );
+    }
+
+    50% {
+        transform: translateY(
+                -2vh
+        );
+    }
+
+    51% {
+        transform: translateY(
+                -2.1vh
+        );
+    }
+
+    to {
+        transform: translateY(
+                0
+        );
+    }
+
+}
+
 body {
     background-image: url("../assets/images/ForestBackground.jpg");
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-color: #152227;
     color: #F4F6FB;
     font-family: "Corbel Light", sans-serif;
 }
 
-.content {
+h1 {
+    text-align: center;
+    font-size: 4vh;
+    margin-top: 1vh;
+    font-family: "Eagle Lake", serif;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.5vh;
+    margin-top: 1vh;
+    font-family: "Eagle Lake", serif;
+}
+
+.title {
+    padding: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    justify-content: center;
+    border: 0.3vh solid #cad7ed;
+    margin: 1vh auto auto;
+    width: 70%;
+    background-color: #2b4042;
+    animation: bounceInAnimation 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.recentpost {
     padding: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: left;
     justify-content: center;
-    border: 2px solid #cad7ed;
-    margin: auto;
-    margin-top: 10px;
+    border: 0.3vh solid #cad7ed;
+    margin: 2vh auto auto;
     width: 70%;
-    border-radius: 10px;
-    background-image: linear-gradient(to bottom, #233657, #2e538e);
-    box-shadow: 3px 3px 15px white;
+    background-color: #2b4042;
+    animation: bounceInAnimation 1s 0.3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
 }
 
-.content ul li {
+.olderposts {
+    padding: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    justify-content: center;
+    border: 0.3vh solid #cad7ed;
+    margin: 2vh auto auto;
+    width: 70%;
+    background-color: #2b4042;
+    animation: bounceInAnimation 1s 0.6s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.olderposts ul li {
     transition: transform 0.3s ease;
 }
 
-.content ul li:hover {
+.olderposts ul li:hover {
     transform: scale(1.1);
 }
 
-.content ul li:active {
+.olderposts ul li:active {
     transform: scale(0.9);
 }
 
-.content ul li a {
+.olderposts ul li a {
     text-decoration: none;
     color: #F4F6FB;
     transition: color 0.3s ease;
 }
 
-.content ul li a:hover {
+.olderposts ul li a:hover {
     color: #FDE9C3;
 }
 
-.content ul li a:active {
+.olderposts ul li a:active {
     color: #FDE9C3;
 }
 
 .returnButton {
     border: #F4F6FB 2px solid;
-    border-radius: 15px;
-    padding: 10px;
+    border-radius: 1.5vh;
+    padding: 1vh;
     transition: transform 0.5s ease;
 }
 
@@ -79,13 +160,22 @@ body {
     color: #FDE9C3;
 }
 
-footer {
-    text-align: center;
-    background-color: #233657;
-    color: #F4F6FB;
-    padding: 10px;
+.footer {
+    font-family: "Corbel Light", sans-serif;
+    transform: translateY(4vh);
     position: fixed;
     bottom: 0;
+    font-size: 1.5vh;
+    text-align: center;
+    background-color: #152227;
+    color: #F4F6FB;
+    padding: 2vh;
     width: 100%;
-    border-top: 2px solid #cad7ed;
+    border-top: 0.2vh solid #cad7ed;
+    margin-top: 2vh;
+    transition: transform 0.3s ease;
+}
+
+.footer:hover {
+    transform: translateY(0);
 }
