@@ -6,22 +6,58 @@ body {
     color: white;
 }
 
+.top {
+    margin: auto auto 4vh auto;
+    border: #F4F6FB 2px solid;
+    width: 40vw;
+    height: auto;
+    padding: 1vh;
+    background-color: #152227;
+    text-align: center;
+}
+
+.top h1 {
+    font-size: 4vh;
+    font-family: "Eagle Lake", serif;
+}
+
+.top a {
+    text-decoration: none;
+    color: white;
+    padding: 1vh;
+    transition: transform, color ease 0.3s;
+    font-family: "Corbel Light", sans-serif;
+}
+
+.top a:hover {
+    color: #cad7ed;
+    transform: scale(1.1);
+}
+
 
 .animationcategory {
-    margin: auto;
+    margin: auto auto 4vh auto;
+    padding: 1vh 1vw;
+    background-color: #152227;
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    margin-top: 20px;
-    border: #152227 2px solid;
+    border: #ffffff 2px solid;
     width: 80%;
 }
 
 .animationcategory h2 {
+    font-family: "Eagle Lake", serif;
     font-size: 2rem;
     margin-bottom: 20px;
 
+}
+
+.animationcategory p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    font-family: "Corbel Light", sans-serif;
 }
 
 .animationlist {
@@ -42,7 +78,8 @@ body {
     display: flex;
     width: 10vw;
     height: 10vh;
-    border: #152227 2px solid;
+    border: #ffffff 0.2vh solid;
+    border-radius: 2vh;
     flex-wrap: wrap;
     list-style: none;
     margin: 10px;
@@ -75,4 +112,25 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
     font-size: 2vh;
     text-align: center;
+    font-family: "Corbel Light", sans-serif;
+}
+
+.footer {
+    font-family: "Corbel Light", sans-serif;
+    transform: translateY(4vh);
+    position: fixed;
+    bottom: 0;
+    font-size: 1.5vh;
+    text-align: center;
+    background-color: #152227;
+    color: #F4F6FB;
+    padding: 2vh;
+    width: 100%;
+    border-top: 0.2vh solid #cad7ed;
+    margin-top: 2vh;
+    transition: transform 0.3s ease;
+}
+
+.footer:hover {
+    transform: translateY(0);
 }
