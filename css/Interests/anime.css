@@ -16,38 +16,57 @@ body {
     text-align: left;
     justify-content: center;
     border: 2px solid #cad7ed;
-    margin: auto;
-    margin-top: 10px;
+    margin: 10px auto auto;
     width: 70%;
-    border-radius: 10px;
-    background-image: linear-gradient(to bottom, #233657, #2e538e);
-    box-shadow: 3px 3px 15px white;
+    background-color: #152227;
 }
 
-.content ul li {
-    transition: transform 0.3s ease;
+.anime-watching-list, .anime-planning-list, .anime-finished-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
 }
 
-.content ul li:hover {
+.anime-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 10vw;
+    height: 20vh;
+    border: #ffffff 2px solid;
+    border-radius: 15px;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    animation: popIn 0.5s ease-in-out;
+    animation-fill-mode: backwards;
+    animation-iteration-count: 1;
+    transition: transform 0.5s ease;
+}
+
+.anime-item:hover {
     transform: scale(1.1);
 }
 
-.content ul li:active {
-    transform: scale(0.9);
+.anime-item h2 {
+    text-align: center;
+    font-size: 2vh;
+    margin: auto;
+    padding: 1vh;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: "Corbel Light", sans-serif;
 }
 
-.content ul li a {
-    text-decoration: none;
-    color: #F4F6FB;
-    transition: color 0.3s ease;
-}
-
-.content ul li a:hover {
-    color: #FDE9C3;
-}
-
-.content ul li a:active {
-    color: #FDE9C3;
+.anime-item img {
+    height: 150%;
+    border-radius: 15px;
 }
 
 .returnButton {
@@ -88,4 +107,32 @@ footer {
     bottom: 0;
     width: 100%;
     border-top: 2px solid #cad7ed;
+}
+
+@media screen and (max-width: 1024px) {
+    .content {
+        margin: auto;
+        padding: 2vh;
+        width: 90%;
+    }
+
+    .anime-item {
+        width: 20vw;
+        height: 20vh;
+    }
+}
+
+@keyframes popIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.1);
+    }
+
+    10% {
+        opacity: 0.1;
+    }
+
+    100% {
+        transform: scale(1);
+    }
 }
