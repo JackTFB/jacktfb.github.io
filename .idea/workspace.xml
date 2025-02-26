@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e9e8b288-60e0-4df8-98a1-227b1c2c4c49" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/jacktfb-website/postcss.config.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jacktfb-website/src/Pages/Home.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jacktfb-website/src/Pages/Start.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNAME" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/gifs/forest_background_animated.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/gifs/monika.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/gifs/monikahappy.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/Bluesky.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/ForestBackground.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/Github.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/JackTFBButton.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/JackTFBPFP.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/YouTube.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/Interests/anime.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/Interests/games.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/Interests/internet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/Interests/moviesandtv.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/Interests/music.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/Interests/technology.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/Interests/vtubers.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/Projects/animation.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/about.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blog.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/home-mobile.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/home.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/interests.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/post.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/projects.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/tipsandresources.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/anilist.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/monika.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/Blog/Post - 1-19-2025.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/Blog/Post - 1-25-2025.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/Interests/Games/ddlc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/Interests/anime.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/Interests/games.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/Interests/internet.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/Interests/moviesandtv.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/Interests/music.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/Interests/technology.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/Interests/vtubers.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/Projects/animation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/Projects/musicprojects.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/Projects/programming.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/Projects/writing.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/Tips/blender.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/Tips/linux.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/Tips/othertips.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/Tips/programmingtips.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/blog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/interests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/links.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/projects.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/sitemap.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/tipsandresources.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2tavmcBqgBFAZvDqKhJ4MY18l6q" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "react-app",
+    "javascript.nodejs.core.library.configured.version": "20.11.1",
+    "javascript.nodejs.core.library.typings.version": "20.11.30",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2024.1.2\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-WS-241.15989.105" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e9e8b288-60e0-4df8-98a1-227b1c2c4c49" name="Changes" comment="" />
+      <created>1740603160730</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1740603160730</updated>
+      <workItem from="1740603162372" duration="606000" />
+      <workItem from="1740603895503" duration="7576000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

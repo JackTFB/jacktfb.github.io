@@ -1,0 +1,16 @@
+/* index.css */
+.start-page {
+    /* Add your styles for the start page */
+    background-color: dodgerblue;
+    background-image: none;
+}
+
+.home-page {
+    /* Add your styles for the home page */
+    background-color: darkslategray;
+    background-image: url("../public/gifs/forest_background_animated.gif");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
