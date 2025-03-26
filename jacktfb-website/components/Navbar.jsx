@@ -7,7 +7,7 @@ function Navbar() {
             <ul className='container mx-auto flex justify-between items-center'>
                 <li><Link href='/Home'>Home</Link></li>
                 <li><Link href='/About'>About</Link></li>
-                <li><Link href='/Blog'>Blog</Link></li>
+                <li><Link href='/Resume'>Resume</Link></li>
                 
                 <li>
                     <details>
