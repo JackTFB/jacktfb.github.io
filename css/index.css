@@ -1,5 +1,10 @@
 body {
-    background-color: #2e538e;
+    background-image: url("../assets/images/ForestBackground.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #152227;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 4px;
@@ -18,8 +23,12 @@ body {
     margin-top: 10px;
     width: 70%;
     border-radius: 10px;
-    background-image: linear-gradient(to bottom, #233657, #2e538e);
-    box-shadow: 3px 3px 15px white;
+    background-color: #152227;
+    transition: border-color 0.3s ease;
+}
+
+.content:hover {
+    border-color: #FDE9C3
 }
 
 .contentEnter {
@@ -52,17 +61,27 @@ body {
     width: 100px;
     padding: 10px;
     align-self: center;
+    border: solid 0.2rem;
     border-radius: 60px;
-
+    border-color: white;
 }
 
-footer {
-    text-align: center;
-    background-color: #233657;
-    color: #F4F6FB;
-    padding: 10px;
+.footer {
+    font-family: "Corbel Light", sans-serif;
     position: fixed;
     bottom: 0;
+    font-size: 1.5vh;
+    text-align: center;
+    background-color: #152227;
+    color: #F4F6FB;
+    padding: 2vh;
     width: 100%;
-    border-top: 2px solid #cad7ed;
+    border-top: 0.2vh solid #cad7ed;
+    margin-top: 2vh;
+    transition: border-color 0.3s ease;
+    
+}
+
+.footer:hover {
+    border-color: #FDE9C3
 }
