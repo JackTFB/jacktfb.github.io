@@ -40,8 +40,76 @@ body {
     background-repeat: no-repeat;
     background-color: #152227;
     color: #F4F6FB;
+    margin: 0;
     font-size: 1.5vh;
     font-family: "Corbel Light", sans-serif;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    background-color: #152227;
+    border-bottom: solid;
+    width: 100%;
+    height: 6vh;
+    padding: 1vh 2vw;
+    
+}
+.navbar img {
+    border: white solid;
+    border-radius: 60px;
+}
+
+.navbarlist {
+    display: block;
+}
+
+.navbarlist ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: center;
+    margin: auto;
+    list-style-type: none;
+}
+.navbarlist ul li {
+    padding: 10px;
+    margin: 10px;
+    border: white solid;
+    border-radius: 30px;
+    width: 5vw;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.navbarlist ul li:hover {
+    transform: scale(1.1);
+}
+
+.navbarlist ul li:active {
+    transform: scale(0.9);
+}
+
+.navbarlist ul li a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    transition: color 0.3s ease;
+}
+
+.navbarlist ul li a:hover {
+    color: #FDE9C3;
+}
+
+.navbar-toggle {
+    display: none;
+}
+
+.navbarlist.active {
+    display: block;
 }
 
 h1 {
@@ -106,39 +174,8 @@ h2 {
     animation-fill-mode: both;
 }
 
-.returnButton {
-    border: #F4F6FB 2px solid;
-    border-radius: 15px;
-    padding: 10px;
-    transition: transform 0.5s ease;
-}
-
-.returnButton:hover {
-    transform: scale(1.1);
-}
-
-.returnButton:active {
-    transform: scale(0.9);
-}
-
-.returnButton a {
-    text-decoration: none;
-    color: #F4F6FB;
-    transition: color 0.3s ease;
-}
-
-.returnButton a:hover {
-    color: #FDE9C3;
-}
-
-.returnButton a:active {
-    color: #FDE9C3;
-}
-
 .footer {
     font-family: "Corbel Light", sans-serif;
-    transform: translateY(4vh);
-    position: fixed;
     bottom: 0;
     font-size: 1.5vh;
     text-align: center;
@@ -148,9 +185,65 @@ h2 {
     width: 100%;
     border-top: 0.2vh solid #cad7ed;
     margin-top: 2vh;
-    transition: transform 0.3s ease;
+    transition: border-color 0.3s ease;
 }
 
 .footer:hover {
     transform: translateY(0);
+}
+
+@media (max-width: 1024px) {
+    .navbar {
+        justify-content: center;
+    }
+
+    .navbarlist {
+        opacity: 0;
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.9);
+        top: 8vh;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        z-index: 5;
+        text-align: center;
+        animation: fadeInAnimation ease 0.5s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        bottom: 0;
+    }
+
+    .navbar ul li {
+        width: 30%;
+        bottom: 0;
+    }
+
+    .navbar-toggle {
+        display: block;
+        background: none;
+        border: none;
+        font-size: 2em;
+        color: white;
+        cursor: pointer;
+    }
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
