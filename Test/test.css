@@ -1,0 +1,94 @@
+body {
+    background: rgb(3, 3, 194);
+    text-align: center;
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+.main {
+    width: 80%;
+    margin: auto;
+    
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    width: 100%;
+    
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    list-style: none;
+}
+
+.navbar ul li {
+    padding-right: 30px;
+}
+
+.carrd {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 70px auto;
+    padding: 40px 10px 20px 40px;
+    background: #161616;
+    border: 2px solid #ee4300;
+    border-radius: 60px;
+}
+
+.carrdinfo {
+    display: flex;
+    flex-direction: row;
+}
+
+.carrdprofile {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.carrd h1 {
+    padding: 10px;
+    margin: 0;
+    font-size: x-large;
+}
+
+.pfp img {
+    height: 80px;
+    padding: 0px;
+    margin: 0;
+}
+
+
+.carrdinfo p {
+    padding: 30px;
+}
+
+
+.carrd ul {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.carrd ul li {
+    padding-right: 10px;
+}
+
+.footer {
+    text-align: center;
+    margin: 0;
+    color: white;
+    padding: 0;
+    bottom: 0;
+    
+}
