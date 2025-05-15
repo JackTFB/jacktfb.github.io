@@ -1,0 +1,9 @@
+.section {
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.section ul {
+    list-style: none;
+    padding: 0;
+}
